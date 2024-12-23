@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 115px 50px 135px;
+    align-items: center;
+}
+
+.tittle-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.tittle-container img {
+    height: 56px;
+}
+
+.nav-tittle {
+    color: rgb(19, 19, 24);
+    font-size: 2rem;
+    font-weight: 800;
+
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.primary-color {
+    color: rgb(255, 84, 0);
+}
+
+.banner {
+    margin: 0 135px 100px 135px;
+
+}
+
+.banner-img img {
+
+    width: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%);
+    height: 70%;
+}
+
+.banner-tittle {
+    position: relative;
+    left: 200px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    position: relative;
+    left: 210px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 247px;
+    width: 620px;
+}
+
+
+.form-container {
+    position: relative;
+    left: 160px;
+    border-radius: 8px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.3);
+    width: 700px;
+    height: 84px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.information {
+
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: 0;
+    gap: 10px;
+    width: 140px;
+    height: 40px;
+}
+
+.find-something i {
+    color: rgb(255, 255, 255);
+}
+
+.find-something input {
+
+    background-color: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+    width: 140px;
+    border-radius: 8px;
+
+
+}
+
+.find-something {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 0;
+    background: rgb(255, 84, 0);
+
+
+}
+
+
+
+.first-container {
+    margin: 0 135px 100px 135px;
+    display: flex;
+    gap: 50px;
+}
+
+.object-container {
+    position: relative;
+    top: -70px;
+}
+
+
+.object-tittle {
+    color: rgb(19, 19, 24);
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.tittle-description {
+    color: rgba(19, 19, 24, 0.7);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.Read-More {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-style: 800;
+    padding: 14px 14px 14px 14px;
+    width: 174px;
+    height: 52px;
+}
+
+/* second-section related styles */
+.second-section-tittle {
+    text-align: center;
+}
+
+.second-section {
+    margin: 0 135px 100px 135px;
+}
+
+.row-1 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+
+}
+
+.row-1 img {
+    width: 573px;
+    height: 300px;
+}
+
+.row-2 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.row-3 {
+    display: flex;
+    gap: 24px;
+}
+
+.place-1 {
+    position: absolute;
+    top: 1702px;
+    left: 361px;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+.place-2 {
+    position: absolute;
+    top: 1702px;
+    left: 952px;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+.place-3 {
+    position: absolute;
+    top: 2019px;
+    left: 265px;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+.place-4 {
+    position: absolute;
+    top: 2019px;
+    left: 670px;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+.place-5 {
+    position: absolute;
+    top: 2019px;
+    left: 1112px;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+.place-6 {
+    position: absolute;
+    top: 2336px;
+    left: 290px;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+.place-7 {
+    position: absolute;
+    top: 2336px;
+    left: 892px;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+/* third-section styles */
+.third-section {
+    margin: 0 135px 100px 135px;
+}
+
+.third-section-tittle {
+    text-align: center;
+    gap: 24px;
+}
+
+.first-row {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.first-box {
+    padding: 32px 55px 32px 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.second-box {
+    padding: 32px 55px 32px 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.single-box {
+    padding: 32px 55px 32px 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    width: 50%;
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+}
+
+.objects-tittle {
+    color: rgb(19, 19, 24);
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+/* fourth section styles */
+.fourth-container {
+    margin: 0 135px 100px 135px;
+}
+
+.fourth-section img {
+    width: 100%;
+}
+
+.fourth-section-tittle {
+    text-align: center;
+}
+
+.price {
+    color: rgb(255, 84, 0);
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.first-div {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 3625px;
+    left: 580px;
+}
+
+.second-div {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 4050px;
+    left: 191px;
+
+}
+
+.third-div {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 4450px;
+    left: 580px;
+}
+
+.fourth-firth-section {
+    margin-bottom: 24px;
+}
+
+.fourth-four-section {
+    text-align: center;
+
+    margin-bottom: 100px;
+}
+
+.fourth-four-section .Read-More {
+    width: 210px;
+    padding: 14px;
+
+
+}
+
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+        margin: 10px;
+    }
+}
